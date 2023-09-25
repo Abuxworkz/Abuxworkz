@@ -9,3 +9,20 @@ public class EvenOddChecker {
         }
     }
 }
+
+
+//***conditions dl**\\\
+
+        Dl(2);
+    }
+        static void Dl(int number) {
+            if (number>=18){
+                System.out.println("eligible to vote");
+            } else if (number <= 18) {
+                System.out.println("Not eligible");
+            } else {
+                System.out.println("will be fined");
+
+            }
+        }
+    }
